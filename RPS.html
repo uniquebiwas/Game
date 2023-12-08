@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title> Rock Paper Scissors </title>
+  <!-- Add this to the head of your HTML file -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+</head>
+<body>
+
+<div id="game-container">
+  <div id="result">Choose an option:</div>
+
+  <div id="options">
+    <button class="option" onclick="play('rock')">Rock</button>
+    <button class="option" onclick="play('paper')">Paper</button>
+    <button class="option" onclick="play('scissors')">Scissors</button>
+  </div>
+  <br>
+  <br>
+  <button class="option" onclick="redirectToGame('index.html')">Home Page</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
